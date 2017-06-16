@@ -13,7 +13,7 @@ class Contact {
     
     //MARK: - Initializers
     
-    init(name: String, phoneNumber: String = "", email: String = "", uuid: UUID = UUID()) { //FIXME: - Make sure this works with optionals
+    init(name: String, phoneNumber: String = "", email: String = "", uuid: UUID = UUID()) {
         
         self.name = name
         self.phoneNumber = phoneNumber

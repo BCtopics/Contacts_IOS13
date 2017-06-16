@@ -19,7 +19,7 @@ class ContactDetailViewController: UIViewController {
     
     func checkContact() {
         
-        guard let contact = contact else { titleBar.title = "Add Contact"; return }
+        guard let contact = contact else { titleBar.title = "Create Contact"; return }
         
         nameTextField.text = contact.name
         phoneTextField.text = contact.phoneNumber
@@ -31,7 +31,7 @@ class ContactDetailViewController: UIViewController {
         
         if !isEditingContact {
             
-            guard let name = nameTextField.text,
+            guard let name = nameTextField.text, nameTextField.text != "",
                 let email = emailTextField.text,
                 let phone = phoneTextField.text else { return }
             
