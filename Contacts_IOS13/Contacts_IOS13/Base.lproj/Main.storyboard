@@ -120,8 +120,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Edit Contact" id="H4W-TK-pj9">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="MPP-bn-1f6"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="MPP-bn-1f6">
+                            <connections>
+                                <action selector="saveButtonTapped:" destination="Wwg-s9-M2k" id="ofb-I3-Hln"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="emailTextField" destination="wXh-Vd-koT" id="sTR-Nt-LFP"/>
+                        <outlet property="nameTextField" destination="ud3-Cc-SB7" id="cbt-OD-huB"/>
+                        <outlet property="phoneTextField" destination="gYh-mn-g6e" id="Lhu-HQ-rSo"/>
+                        <outlet property="titleBar" destination="H4W-TK-pj9" id="9oh-Dj-JTU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Wj-9Y-bL0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -147,6 +157,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1JG-bZ-an1"/>
+        <segue reference="gpD-Uk-t3l"/>
     </inferredMetricsTieBreakers>
 </document>

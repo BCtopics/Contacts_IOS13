@@ -15,7 +15,7 @@ class ContactController {
     
     // Fetch Contacts
     static func fetchNewContacts() {
-        
+
         let predicate = NSPredicate(value: true)
         
         let query = CKQuery(recordType: Contact.kRecordType, predicate: predicate)

@@ -22,6 +22,7 @@ class ContactListTableViewController: UITableViewController {
     }
     
     func refresh() {
+//        ContactController.fetchNewContacts()
         tableView.reloadData()
     }
     
@@ -72,11 +73,10 @@ class ContactListTableViewController: UITableViewController {
             }
             
             let contact = ContactController.contacts[indexPath.row]
-            
-            //FIXME: - This is what I need to set on my detailView when I make it.
-//            detailViewController.contact = contact
-//            detailViewController.isEditingContact = true
-//            detailViewController.index = indexPath.row
+
+            detailViewController.contact = contact
+            detailViewController.isEditingContact = true
+            detailViewController.index = indexPath.row
         }
     }
 }
