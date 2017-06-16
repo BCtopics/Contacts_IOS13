@@ -12,6 +12,8 @@
 		6BE6FE6B1EF42AEE00F3A8D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6FE6A1EF42AEE00F3A8D0 /* Assets.xcassets */; };
 		6BE6FE6E1EF42AEE00F3A8D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE6FE6C1EF42AEE00F3A8D0 /* LaunchScreen.storyboard */; };
 		6BE6FE7A1EF42B1600F3A8D0 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE6FE791EF42B1600F3A8D0 /* CloudKit.framework */; };
+		6BE6FE7C1EF42E9F00F3A8D0 /* ContactListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE6FE7B1EF42E9F00F3A8D0 /* ContactListTableViewController.swift */; };
+		6BE6FE7E1EF42EBA00F3A8D0 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE6FE7D1EF42EBA00F3A8D0 /* ContactDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		6BE6FE6F1EF42AEE00F3A8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BE6FE771EF42B1400F3A8D0 /* Contacts_IOS13.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Contacts_IOS13.entitlements; sourceTree = "<group>"; };
 		6BE6FE791EF42B1600F3A8D0 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		6BE6FE7B1EF42E9F00F3A8D0 /* ContactListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListTableViewController.swift; sourceTree = "<group>"; };
+		6BE6FE7D1EF42EBA00F3A8D0 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				6BE6FE671EF42AEE00F3A8D0 /* Main.storyboard */,
+				6BE6FE7B1EF42E9F00F3A8D0 /* ContactListTableViewController.swift */,
+				6BE6FE7D1EF42EBA00F3A8D0 /* ContactDetailViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -172,6 +178,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BE6FE7C1EF42E9F00F3A8D0 /* ContactListTableViewController.swift in Sources */,
+				6BE6FE7E1EF42EBA00F3A8D0 /* ContactDetailViewController.swift in Sources */,
 				6BE6FE641EF42AEE00F3A8D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
