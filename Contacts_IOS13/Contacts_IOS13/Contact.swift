@@ -74,5 +74,4 @@ class Contact {
         
         return record
     }
-    
 }
