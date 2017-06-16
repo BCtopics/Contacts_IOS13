@@ -22,7 +22,6 @@ class ContactListTableViewController: UITableViewController {
     }
     
     func refresh() {
-//        ContactController.fetchNewContacts()
         tableView.reloadData()
     }
     
